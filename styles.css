@@ -19,3 +19,48 @@ input, button {
 p, h1, h2, h3, h4, h5, h6 {
   overflow-wrap: break-word;
 }
+
+html, body {
+  height: 100%;
+}
+
+.fl-center {
+  display: flex;
+  justify-content: center;
+}
+
+header > h1 {
+  text-align: center;
+  padding: 20px 0 60px;
+}
+
+.flash-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flash-card__answer {
+  font-size: 1.5rem;
+  padding-bottom: 25px;
+}
+
+.image-wrapper > img {
+  width: 150px;
+  height: auto;
+}
+
+.user-input > input {
+  width: 30ch;
+  font-size: 1.125rem;
+  padding: 4px 8px;
+}
+
+.controls {
+  padding: 25px 0;
+}
+
+.controls > button {
+  font-size: 1.5rem;
+  padding: 0.35em 1.5em;
+}
