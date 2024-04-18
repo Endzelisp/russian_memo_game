@@ -48,9 +48,13 @@ header > h1 {
   padding-bottom: 25px;
 }
 
+.image-wrapper {
+  height: 120px;
+}
+
 .image-wrapper > img {
-  width: 150px;
-  height: auto;
+  width: auto;
+  height: 100%;
 }
 
 .user-input-wrapper {
