@@ -73,6 +73,17 @@ header > h1 {
   line-height: var(--size);
 }
 
+@media (max-width: 600px) {
+  .user-input-wrapper input {
+    width: 70vw;
+    font-size: 1rem;
+  }
+
+  .user-input-wrapper span {
+    --size: 24px;
+  }
+}
+
 .controls {
   padding: 25px 0;
 }
