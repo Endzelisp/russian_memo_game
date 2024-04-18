@@ -52,10 +52,25 @@ header > h1 {
   height: auto;
 }
 
-.user-input > input {
+.user-input-wrapper {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.user-input-wrapper input {
   width: 30ch;
   font-size: 1.125rem;
   padding: 4px 8px;
+}
+
+.user-input-wrapper span {
+  --gap: 5px;
+  --size: 32px;
+  position: absolute;
+  left: calc(100% + var(--gap));
+  font-size: var(--size);
+  line-height: var(--size);
 }
 
 .controls {
